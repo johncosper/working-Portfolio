@@ -1,7 +1,8 @@
+
 [  
     {
         "id": 1,
-        "name": "Lets Run",
+        "name": "Lets Run!",
         "image": "./components/Images/background.jpg",
         "url": "https://github.com/johncosper/Project-1"
     },

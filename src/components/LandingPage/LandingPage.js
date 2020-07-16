@@ -9,11 +9,8 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
 
-            <img
-              src=""
-              alt="avatar"
-              className="avatar-img"
-            />
+            <br></br>
+            <br></br>
 
             <div className="banner-text">
                 <h1>John Cosper</h1>
