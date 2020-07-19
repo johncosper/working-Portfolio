@@ -1,23 +1,17 @@
 import React from "react";
-import CardBtn from "./CardBtn/CardBtn";
 import "./Card.css";
 
 function Card(props) {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage: props.image ? `src(../Images/${props.image})` : "none"
-      }}
-    >
-      <img src={props.image} alt={props.name} style={{height: 200}}/>
-      {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
+    <div className="card" style={{ backgroundImage: props.image ? `src(${props.image})` : "none"}}>
+    
+    <img src={props.image} alt={props.name} style={{height: 200}, {width: 250}}/>
+    {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
       
-      <CardBtn
-        style={{ opacity: props.image ? 1 : 0 }}
-        href={props.href}
-        name={props.name}
-      />
+      <a href= {props.href} target="_">
+        <button className={`card-btn btn-primary`} {...props}>{props.name}</button>
+      </a>
+
     </div>
   );
 }

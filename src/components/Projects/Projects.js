@@ -10,6 +10,9 @@ class Projects extends Component {
   render() {
     return(
       <div>
+        <div className='banner-text' style={{textAlign: 'center'}}>
+          <h1>Projects</h1>
+        </div>
           {this.state.projects.map(project => (
               <Card 
                 id={project.id}

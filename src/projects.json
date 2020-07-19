@@ -3,13 +3,43 @@
     {
         "id": 1,
         "name": "Lets Run!",
-        "image": "./components/Images/background.jpg",
-        "url": "https://github.com/johncosper/Project-1"
+        "image": "/images/jogger.jpeg",
+        "url": "https://github.com/johncosper/Project-1",
+        "url2": "https://github.com/johncosper/Project-1"
     },
     {
         "id": 2,
         "name": "Name Vs. Skeleton",
-        "image": "./components/Images/pixelKnight.png",
-        "url": "https://immense-atoll-20860.herokuapp.com/"
+        "image": "/images/pixelKnight.png",
+        "url": "https://immense-atoll-20860.herokuapp.com/",
+        "url2": "https://github.com/johncosper/Project-2"
+    },
+    {
+        "id": 3,
+        "name": "Fitness Tracker",
+        "image": "/images/weight.jpeg",
+        "url": "https://stark-lowlands-04667.herokuapp.com/",
+        "url2": "https://github.com/johncosper/17-fitness-tracker"
+    },
+    {
+        "id": 4,
+        "name": "Employee Directory",
+        "image": "/images/officeWorkers.jpg",
+        "url": "https://secret-meadow-79592.herokuapp.com/",
+        "url2": "https://github.com/johncosper/19-user-directory"
+    },
+    {
+        "id": 5,
+        "name": "Burger Maker",
+        "image": "/images/burger.jpeg",
+        "url": "https://damp-reef-43909.herokuapp.com/",
+        "url2": "https://github.com/johncosper/burger-homework"
+    },
+    {
+        "id": 6,
+        "name": "Employee Database Tracker",
+        "image": "/images/manager.jpg",
+        "url": "https://github.com/johncosper/mysql-employee-tracker",
+        "url2": "https://github.com/johncosper/mysql-employee-tracker"
     }
 ]
